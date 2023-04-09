@@ -1,0 +1,142 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-size: 20px;
+    background-image: url(image/military.jpg);
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.6);
+    background-blend-mode: multiply;
+    background-position: center center;
+}
+
+h2 {
+    color: white;
+    font-size: 40px;
+    font-family: 標楷體;
+    float: left;
+}
+
+header {
+    text-align: center;
+    margin: 0px;
+    padding: 20px;
+    color: white;
+    font-size: 60px;
+
+}
+
+nav {
+    width: 150px;
+    float: left;
+}
+
+nav a {
+    background-color: white;
+    line-height: 800%;
+    font-family: 標楷體;
+    padding: 10px 10px;
+}
+
+nav a:hover {
+    background-color: black;
+    color: white;
+}
+
+.card {
+    margin-left: 150px;
+    margin-right: 400px;
+    color: white;
+    border: 1px;
+    font-size: 25px;
+    font-family: 標楷體;
+}
+
+h3 {
+    float: left;
+    text-align: left;
+    color: white;
+    font-size: 30px;
+    font-family: 標楷體;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    color: white;
+    background-color: gray;
+}
+
+.piegraph {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    background-color: antiquewhite;
+    background: conic-gradient(red 20deg, blue 20deg, gray 20deg, yellow 40deg, pink 40deg, green 60deg, orange 60deg, purple 360deg);
+    margin: 50px 20px;
+    float: left;
+}
+
+.sign {
+    margin-left: 150px;
+    margin-right: 0px;
+    margin-top: 100px;
+    color: white;
+    border: 1px;
+    font-size: 25px;
+    font-family: 標楷體;
+}
+
+.as {
+    margin-left: 250px;
+    margin-right: 250px;
+    margin-top: 100px;
+    font-size: 25px;
+    color: white;
+    font-family: 標楷體;
+    border: 1px;
+    float: left;
+}
+
+.ad {
+    font-size: 25px;
+    font-family: 標楷體;
+    color: white;
+    float: left;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+
+h4 {
+    font-size: 30px;
+    font-family: 標楷體;
+    color: white;
+}
+
+main::after {
+    content: "";
+    clear: both;
+    display: table;
+
+}
+
+div {
+    margin-left: 700px;
+    margin-top: 50px;
+    font-size: 25px;
+    font-family: 標楷體;
+    color: white;
+}
+
+h5 {
+    font-size: 30px;
+}
+
+span {
+    background-color: white;
+}
+
+.zx {
+    background-color: white;
+}
